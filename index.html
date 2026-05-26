@@ -609,6 +609,8 @@ function getSVG(ex,show){
 
 function getAns(ex){
   if(ex.find==='R')return r2(ex.d.R);
+  if(ex.find==='U')return r2(ex.d.U);
+  if(ex.find==='I')return r2(ex.d.I);
   if(ex.find==='L')return r2(ex.d.L);
   if(ex.find==='S')return ex.d.S;
   return r2(ex.d.R);
